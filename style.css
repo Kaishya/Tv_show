@@ -1,0 +1,55 @@
+h1 {
+    color: royalblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-style: dotted;
+    border-width:1px;
+    font-size:3em;
+    background-color: lightgoldenrodyellow;
+    margin: 1%;
+    padding: 3%;
+    background-image: linear-gradient(to bottom right, lightgoldenrodyellow,rgb(252, 252, 178), lightsteelblue );
+    box-shadow: 5px 5px 3px 5px #a5a2a2;
+    
+}
+
+p {
+    color: plum;
+    border-style: dashed;
+    border-width: 2px;
+    background-color: lightsteelblue;
+}
+
+h2 {
+color: rgb(85, 206, 160);
+border-style: solid;
+border-width: 1px;
+border-color: darkgreen;
+font-size:1.2em; 
+background-color: rgb(200, 255, 252);
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-align: center;
+padding: 1%;
+border-radius: 15px;
+}
+
+a {
+    font-style: oblique;
+
+}
+Body {
+    background-color: rgb(189, 218, 238);
+    
+
+}
+
+img {
+    border-style: initial;
+    border-width:2px;
+}
+
+div h1 {
+    width: 300px;
+    transition: width 2s;
+    transition-duration: 2s;
+  }
+  
