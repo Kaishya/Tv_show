@@ -1,15 +1,18 @@
 h1 {
     color: royalblue;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border-style: dotted;
-    border-width:1px;
     font-size:3em;
     background-color: lightgoldenrodyellow;
     margin: 1%;
     padding: 3%;
     background-image: linear-gradient(to bottom right, lightgoldenrodyellow,rgb(252, 252, 178), lightsteelblue );
-    box-shadow: 5px 5px 3px 5px #a5a2a2;
+    box-shadow: 5px 5px 3px #a5a2a2;
+
     
+}
+
+h1:hover {
+    transform: rotateY(180deg);
 }
 
 p {
@@ -31,20 +34,30 @@ text-align: center;
 padding: 1%;
 border-radius: 15px;
 }
+h2:hover {
+    transform: translateX(20px);
+}
 
 a {
     font-style: oblique;
-
+    border: ridge;
+    border-width: 3px;
+    border-color: cornflowerblue;
 }
 Body {
     background-color: rgb(189, 218, 238);
-    
+    animation-name: hi;
+    animation-duration: 4s;
 
 }
-
+@keyframes hi{
+    from {background-color:rgb(235, 235, 198)}
+    to {background-color:rgb(189, 218, 238)}
+}
 img {
     border-style: initial;
     border-width:2px;
+    
 }
 
 div h1 {
@@ -52,4 +65,14 @@ div h1 {
     transition: width 2s;
     transition-duration: 2s;
   }
+  img:hover {
+    transform: rotate(720deg);
+    transition-duration: 8s;
+    
+    /* transform: translate(50px,100px); */
+  }
+
+
   
+
+
