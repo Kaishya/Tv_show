@@ -16,10 +16,21 @@ h1:hover {
 }
 
 p {
-    color: plum;
+    color: rgb(26, 16, 56);
     border-style: dashed;
     border-width: 2px;
     background-color: lightsteelblue;
+    border-color: cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2%;
+}
+p:hover {
+    animation-name: p;
+    animation-duration: 4s;
+}
+@keyframes p{
+    from {background-color:lightsteelblue}
+    to {background-color: rgb(161, 230, 152)}
 }
 
 h2 {
@@ -43,6 +54,7 @@ a {
     border: ridge;
     border-width: 3px;
     border-color: cornflowerblue;
+    padding: .5%;
 }
 Body {
     background-color: rgb(189, 218, 238);
@@ -70,6 +82,10 @@ div h1 {
     transition-duration: 8s;
     
     /* transform: translate(50px,100px); */
+  }
+
+  h3 {
+      color: rgb(43, 48, 88);
   }
 
 
