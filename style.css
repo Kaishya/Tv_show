@@ -1,3 +1,7 @@
+/*  */
+
+
+
 h1 {
     color: royalblue;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -7,7 +11,6 @@ h1 {
     padding: 3%;
     background-image: linear-gradient(to bottom right, lightgoldenrodyellow,rgb(252, 252, 178), lightsteelblue );
     box-shadow: 5px 5px 3px #a5a2a2;
-
     
 }
 
@@ -56,6 +59,16 @@ a {
     border-color: cornflowerblue;
     padding: .5%;
 }
+a:hover {
+     animation-name: link;
+    animation-duration: 1s;
+}
+@keyframes link {
+    from {font-size: medium;}
+    to {font-size:x-large;}
+
+}
+
 Body {
     background-color: rgb(189, 218, 238);
     animation-name: hi;
